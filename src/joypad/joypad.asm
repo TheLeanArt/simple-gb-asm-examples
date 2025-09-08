@@ -196,7 +196,7 @@ ENDM
 ;  each entry made up of a tilemap address (little endian) and a tile index.
 TilemapLocations:
 .A      bmap 0,10,$06, 0,11,$07, 1,10,$08, 1,11,$09
-.B      bmap 1, 7,$06, 1, 8,$07, 2, 7,$08, 2, 8,$09
+.B      bmap 1, 7,$0A, 1, 8,$0B, 2, 7,$0C, 2, 8,$0D
 .Select bmap 4, 3,$05
 .Start  bmap 4, 5,$05
 .Right  bmap 1, 2,$03
